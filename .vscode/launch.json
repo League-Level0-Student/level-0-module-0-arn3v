@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample1<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample1",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample2<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample2",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample3<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample3",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample4<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample4",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample5<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample5",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample6<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample6",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample7<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample7",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample8<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample8",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotExample9<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "RobotExample9",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotSquare<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_02_code_flow._1_robot_square.RobotSquare",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RobotSpiral<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_02_code_flow._2_robot_spiral.RobotSpiral",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PentagonCrazy<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_02_code_flow._3_pentagon_crazy.PentagonCrazy",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlamingNinjaStar<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_02_code_flow._4_flaming_ninja_star.FlamingNinjaStar",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MadlibsOfTheAmazon<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._2_madlibs.MadlibsOfTheAmazon",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WorldDomination<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._3_world_domination.WorldDomination",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuizGame<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._4_quiz_game.QuizGame",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AwesomeOrNot<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._5_awesome_or_not.AwesomeOrNot",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ScaryMaze<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_04_amazing_games._1_scary_maze.ScaryMaze",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DragonFight<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_04_amazing_games._2_dragon_fight.DragonFight",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FourSquare<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_99_extra.FourSquare",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmartShapes<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_99_extra.SmartShapes",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StarShow<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_99_extra.StarShow",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TriangleShell<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "_99_extra.TriangleShell",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeagueToken<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "league_token.LeagueToken",
+            "projectName": "Level0-Module0"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PApplet<Level0-Module0>",
+            "request": "launch",
+            "mainClass": "processing.core.PApplet",
+            "projectName": "Level0-Module0"
+        }
+    ]
+}

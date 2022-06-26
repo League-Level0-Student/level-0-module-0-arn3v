@@ -16,20 +16,55 @@ public class DragonFight {
 		// 1. Create some variables to hold health levels
 		
 			// playerHealth to store your health - set it equal to 100
+
+			int playerHealth = 100;
 	
 			// dragonHealth to store the dragon's health - set it equal to 100
+
+			int dragonHealth = 100;
 
 		// 2. Create some variables to hold the attack strengths. These will be given different values later. 
 		
 			// playerAttack to store the damage the player's attack will do - set it equal
 			// to 0 for now.
+
+			int playerAttack = 0;
 	
 			// dragonAttack to store the damage the dragon's attack will do - set it equal
 			// to 0 for now.
 
+			int dragonAttack = 0;
+
 		
 		//  This while statement will cause the game attack code to repeat
 		while (true) {
+
+			String input = JOptionPane.showInputDialog("Player, do you want to attack the dragon with a 'yell or 'kick' ?");
+
+			if (input.equals("yell")) {
+				playerAttack = ran.nextInt(10);
+				dragonHealth = dragonHealth - playerAttack;
+				
+			}
+
+			if (input.equals("kick")) {
+				playerAttack = ran.nextInt(25);
+				dragonHealth = dragonHealth - playerAttack;
+				
+			}
+
+			dragonAttack = ran.nextInt(35);
+			playerHealth = playerHealth - dragonAttack;
+
+			if (playerHealth <= 0) {
+				playerLost();
+			}
+
+			if (dragonHealth <= 0) {
+				dragonLost();
+			}
+
+			JOptionPane.showMessageDialog(null, "GGs! Player, you have " + playerHealth + " HP left. Dragon, you have " + dragonHealth + " HP left");
 
 			// THE PLAYER ATTACKS THE DRAGON
 
